@@ -2,7 +2,7 @@ import cv2
 import numpy as np 
 import argparse
 import time
-from twilio.rest import Client 
+##from twilio.rest import Client 
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--webcam', help="True/False", default=False)
